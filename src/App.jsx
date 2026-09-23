@@ -1,8 +1,5 @@
 import "./App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Projects from "./pages/Projects";
-
 function App() {
   return (
     <div className="app">
@@ -38,7 +35,6 @@ function App() {
         <nav className="nav-links">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
-          <a href="#projects">Projects & Reviews</a>
           <a href="#why-us">Why Us</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -388,7 +384,6 @@ function App() {
         <div className="footer-links">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
-          <a href="#projects">Projects & Reviews</a>
           <a href="#why-us">Why Us</a>
           <a href="#contact">Contact</a>
         </div>
